@@ -1,0 +1,69 @@
+{
+   "abstract" : "Pure perl implementation of MurmurHash3",
+   "author" : [
+      "Hideaki Ohno <hide.o.j55 {at} gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880",
+   "keywords" : [],
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Digest-MurmurHash3-PurePerl",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "eg"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build::Pluggable::CPANfile" : "0.04",
+            "Module::Build::Pluggable::GithubMeta" : "0",
+            "Module::Build::Pluggable::ReadmeMarkdownFromPod" : "0.04",
+            "Pod::Markdown" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40",
+            "Module::Build::Pluggable" : "0",
+            "Module::Build::Pluggable::CPANfile" : "0.04",
+            "Module::Build::Pluggable::GithubMeta" : "0",
+            "Module::Build::Pluggable::ReadmeMarkdownFromPod" : "0.04"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.008008"
+         }
+      }
+   },
+   "provides" : {
+      "Digest::MurmurHash3::PurePerl" : {
+         "file" : "lib/Digest/MurmurHash3/PurePerl.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hideo55/Digest-MurmurHash3-PurePerl/issues"
+      },
+      "homepage" : "https://github.com/hideo55/p5-Digest-MurmurHash3-PurePerl/tree",
+      "repository" : {
+         "url" : "git://github.com/hideo55/p5-Digest-MurmurHash3-PurePerl.git"
+      }
+   },
+   "version" : "0.01",
+   "x_test_requires" : {
+      "Test::More" : "0.98"
+   }
+}
