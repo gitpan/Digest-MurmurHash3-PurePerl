@@ -30,13 +30,13 @@ no_index:
 provides:
   Digest::MurmurHash3::PurePerl:
     file: lib/Digest/MurmurHash3/PurePerl.pm
-    version: 0.01
+    version: 0.02
 requires:
   perl: 5.008008
 resources:
   bugtracker: https://github.com/hideo55/Digest-MurmurHash3-PurePerl/issues
   homepage: https://github.com/hideo55/p5-Digest-MurmurHash3-PurePerl/tree
   repository: git://github.com/hideo55/p5-Digest-MurmurHash3-PurePerl.git
-version: 0.01
+version: 0.02
 x_test_requires:
   Test::More: 0.98
