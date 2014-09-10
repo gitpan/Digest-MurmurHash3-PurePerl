@@ -3,17 +3,15 @@ abstract: 'Pure perl implementation of MurmurHash3'
 author:
   - 'Hideaki Ohno  <hide.o.j55 {at} gmail.com>'
 build_requires:
-  Test::More: 0.98
+  Test::More: '0.98'
 configure_requires:
-  CPAN::Meta: 0
-  CPAN::Meta::Prereqs: 0
-  Module::Build: 0.38
+  Module::Build: '0.38'
 dynamic_config: 0
-generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Digest-MurmurHash3-PurePerl
 no_index:
   directory:
@@ -24,16 +22,17 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Digest::MurmurHash3::PurePerl:
     file: lib/Digest/MurmurHash3/PurePerl.pm
-    version: 1.00
+    version: '1.01'
 requires:
-  perl: 5.008008
+  perl: '5.008008'
 resources:
   bugtracker: https://github.com/hideo55/p5-Digest-MurmurHash3-PurePerl/issues
   homepage: https://github.com/hideo55/p5-Digest-MurmurHash3-PurePerl
   repository: git://github.com/hideo55/p5-Digest-MurmurHash3-PurePerl.git
-version: 1.00
+version: '1.01'
 x_contributors:
   - 'hideo55 <hide.o.j55@gmail.com>'
